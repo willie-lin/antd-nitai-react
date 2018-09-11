@@ -1,0 +1,49 @@
+.login{
+    height: 100%;
+    background-color: #fff;
+
+    /*position: relative;*/
+}
+.login .loginForm {
+    /*position: absolute;*/
+
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    /*text-align: center;*/
+    /*left: 40%;*/
+    /*margin-left: 100px;*/
+    /*position: center;*/
+    /*height: 200px;*/
+    /*border: 1px solid #cccccc;*/
+    /*margin: 0 auto;*/
+    /*padding: 2% 2% 0 2%;*/
+    /*border-radius: 5px;*/
+    /*background-color: #f9f9f9;*/
+
+}
+.login .loginForm .logo{
+    text-align: center;
+}
+.login .loginForm .loginWrap{
+    width: 300px;
+    /*height: 200px;*/
+    text-align: center;
+    /*border: 1px solid #cccccc;*/
+    margin: 0 auto;
+    padding: 2% 2% 0 2%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    /*padding-left: inherit;*/
+    /*position: center;*/
+}
+.login-form-forgot{
+    float: right;
+}
+.login-form-button{
+    width: 100%;
+    /*float: right;*/
+}
+.form{
+    background-color: #ffffff;
+}
