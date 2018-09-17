@@ -18,6 +18,8 @@ import Echarts from '../../page/charts/Echarts';
 import Topology from '../../page/charts/Topology';
 import EditUser from '../../page/user/editUser/editUser';
 import AddUser from '../../page/user/addUser/addUser';
+import ListVoter from '../../page/voter/listVoter/listVoter';
+import ListExecutive from '../../page/executive/listexecutive/list_executive';
 // import TodoList from 'pages/utils/todoList'
 // import MortgageCal from 'pages/utils/mortgage'
 // import Map from 'pages/map/index'
@@ -35,6 +37,8 @@ class Content extends React.Component {
           <Route path="/app/user/user_list" component={FixedTable}/>
           <Route path="/app/situational/attack_map"  component={Echarts}/>
           <Route path="/app/topology/voter_executive" component={Topology}/>
+          <Route path="/app/voter/voter_list" component={ListVoter} />
+          <Route path="/app/executive/executive_list" component={ListExecutive}/>
 
 
       </Layout.Content>
