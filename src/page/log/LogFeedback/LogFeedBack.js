@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Input, DatePicker, Col, TimePicker, Select, Cascader, InputNumber } from 'antd';
+import { Form, Input, Button, DatePicker, Col, TimePicker, Select, Cascader, InputNumber } from 'antd';
 import './logfeedback.css'
 
 const FormItem = Form.Item;
@@ -30,12 +30,36 @@ class  LogFeedback extends Component {
                     <div className="formitem">
                     <FormItem
                         {...formItemLayout}
-                        label="Fail"
-                        validateStatus="error"
-                        help="Should be combination of numbers & alphabets"
+                        label="title"
+                        // validateStatus="error"
+                        // help="Should be combination of numbers & alphabets"
                     >
-                        <Input placeholder="unavailable choice" id="error"/>
+                        <Input placeholder="please input your title" id="title"/>
                     </FormItem>
+
+                        <FormItem
+                            {...formItemLayout}
+                            label="description" >
+
+                            <Input
+                                type='textarea'
+                                placeholder="please input you description"
+                                id="description"
+                                row='6'
+                                col='6'
+
+                                autosize={{ minRows: 12, minCols: 12 }}
+                            />
+                        </FormItem>
+
+                        <FormItem
+                         wrapperCol={{ span: 12, offset: 5}}
+                        >
+                            <Button type="primary" htmlType="submit">
+                                Submit
+                            </Button>
+
+                        </FormItem>
                     </div>
 
                 </Form>

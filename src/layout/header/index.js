@@ -17,7 +17,7 @@ class Headers extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      userName: 'Lebron', //用户名
+      userName: '雨安-YuAn', //用户名
       visible: false
     }
   }
