@@ -124,10 +124,18 @@ export const menus =  [
                 url: '/app/voter/voter_list',
                 name: '表决器列表',
                 icon: ''
+            },{
+                url: '/app/voter/voter_load',
+                name: '表决器负载',
+                icon: ''
             },
             {
                 url: '/app/voter/voter_edit',
                 name: '修改表决器',
+                icon: '',
+            },{
+                url: '/app/voter/voter_abnormal',
+                name: '表决器异常',
                 icon: '',
             },
 

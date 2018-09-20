@@ -19,6 +19,8 @@ import Topology from '../../page/charts/Topology';
 import EditUser from '../../page/user/editUser/editUser';
 import AddUser from '../../page/user/addUser/addUser';
 import ListVoter from '../../page/voter/listVoter/listVoter';
+import LoadVoter from '../../page/voter/loadVoter/loadVoter';
+import AbnormalVoter from '../../page/voter/abnormalVoter/abnormalVoter';
 import ListExecutive from '../../page/executive/listexecutive/list_executive';
 import ListLog from '../../page/log/listLog/llist_llog';
 import FeedBack from '../../page/log/LogFeedback/LogFeedBack';
@@ -40,6 +42,8 @@ class Content extends React.Component {
           <Route path="/app/situational/attack_map"  component={Echarts}/>
           <Route path="/app/topology/voter_executive" component={Topology}/>
           <Route path="/app/voter/voter_list" component={ListVoter} />
+          <Route path="/app/voter/voter_load" component={LoadVoter} />
+          <Route path="/app/voter/voter_abnormal" component={AbnormalVoter} />
           <Route path="/app/executive/executive_list" component={ListExecutive}/>
           <Route path="/app/log/voter_log" component={ListLog}/>
           <Route path="/app/log/feedback" component={FeedBack} />
