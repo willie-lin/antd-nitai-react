@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Table, Layout } from 'antd';
 
 /**
- * 表决器警报
+ * 执行体警报
  * @type {*[]}
  */
 
