@@ -3,6 +3,8 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 import { Layout } from 'antd'
 import Index from '../../page/index/index'
+import AttackRanking from '../../page/Situational/AttackRanking';
+import AbnormalExecutive from '../../page/executive/abnormalexecutive/abnormalexecutive';
 // import Button from 'pages/basic/button'
 // import Icons from 'pages/basic/icon'
 // import Carousels from 'pages/basic/carousel'
@@ -47,6 +49,8 @@ class Content extends React.Component {
           <Route path="/app/executive/executive_list" component={ListExecutive}/>
           <Route path="/app/log/voter_log" component={ListLog}/>
           <Route path="/app/log/feedback" component={FeedBack} />
+          <Route path="/app/situational/attack" component={AttackRanking} />
+          <Route path="/app/abnormal/executive_abnormal" component={AbnormalExecutive}/>
 
 
       </Layout.Content>

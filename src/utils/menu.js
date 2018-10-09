@@ -74,11 +74,11 @@ export const menus =  [
                 name: '添加用户',
                 icon: '',
             },
-            {
-                url: '/app/user/user_edit',
-                name: '修改用户',
-                icon: '',
-            },
+            // {
+            //     url: '/app/user/user_edit',
+            //     name: '修改用户',
+            //     icon: '',
+            // },
             {
                 url: '/app/user/user_delete',
                 name: '修改用户',
@@ -97,11 +97,11 @@ export const menus =  [
                 name: '攻击排行',
                 icon: ''
             },
-            {
-                url: '/app/situational/attack_list',
-                name: '累计攻击次数',
-                icon: '',
-            },
+            // {
+            //     url: '/app/situational/attack_list',
+            //     name: '累计攻击次数',
+            //     icon: '',
+            // },
             {
                 url: '/app/situational/attack_map',
                 name: '攻击热点图',
@@ -165,7 +165,7 @@ export const menus =  [
         url: '/app/abnormal',
         sub: [
             {
-                url: '/app/abnormal/voter_abnormal',
+                url: '/app/abnormal/executive_abnormal',
                 name: '执行体警报',
                 icon: ''
             },

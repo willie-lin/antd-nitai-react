@@ -7,7 +7,7 @@ import { Table, Layout } from 'antd';
  */
 
 const columns = [{
-    title: '虚拟机IP',
+    title: '执行体IP',
     dataIndex: 'ip',
     key: 'ip'
 },{
@@ -29,217 +29,361 @@ const data =[
     {
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
-        error: 'collapse',
-        method: 'reboot'
-},{
-        key: '1',
-        ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
         key: '1',
         ip: '122.13.144.156',
-        status: 'false',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
+        error: 'collapse',
+        method: 'reboot'
+    },{
+        key: '1',
+        ip: '122.13.144.156',
+        status: 'true',
         error: 'collapse',
         method: 'reboot'
     },{
@@ -269,7 +413,7 @@ const data =[
     },
 ];
 
-const AbnormalVoter = () => (
+const AbnormalExecutive = () => (
     <Table dataSource={data} columns={columns} />
 );
-export default AbnormalVoter;
+export default AbnormalExecutive;
