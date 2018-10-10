@@ -74,16 +74,16 @@ export const menus =  [
                 name: '添加用户',
                 icon: '',
             },
-            // {
-            //     url: '/app/user/user_edit',
-            //     name: '修改用户',
-            //     icon: '',
-            // },
             {
-                url: '/app/user/user_delete',
+                url: '/app/user/user_edit',
                 name: '修改用户',
                 icon: '',
             },
+            // {
+            //     url: '/app/user/user_delete',
+            //     name: '修改用户',
+            //     icon: '',
+            // },
 
         ]
     },
@@ -147,7 +147,7 @@ export const menus =  [
         url: '/app/executive',
         sub: [
             {
-                url: '/app/executive/executive_load_information',
+                url: '/app/executive/executive_load',
                 name: '执行体负载信息',
                 icon: ''
             },

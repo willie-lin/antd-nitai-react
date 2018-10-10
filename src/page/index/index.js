@@ -16,11 +16,11 @@ class Index extends React.Component {
       // type: ['得分','篮板','助攻','抢断'],
       type: ['URL','木马','频率','时间'],
       years: ['2013', '2014', '2015', '2016', '2017', '2018'],
-      score: ['2036', '2089', '1743', '1920', '1954', '2251'],
-      offs: ['596', '548', '601', '552', '591', '600'],
-      reb: ['610', '533', '416', '565', '639', '709'],
-      assit: ['551', '488', '511', '514', '646', '747'],
-      steal: ['129', '121', '109', '104', '92', '116']
+      score: ['20362', '21089', '21743', '31920', '11954', '32251'],
+      offs: ['11596', '21548', '12601', '12552', '21591', '22600'],
+      reb: ['13610', '21533', '15416', '18565', '25639', '31709'],
+      assit: ['13551', '21488', '15511', '22514', '11646', '21747'],
+      steal: ['12129', '23121', '27109', '31104', '33192', '11116']
     }
   }
 
@@ -80,7 +80,7 @@ class Index extends React.Component {
           </Col>
           <Col span={6} className="gutter-row">
             <div className='col-box'>
-              <div>中断断数</div>
+              <div>中断数</div>
               <div className='number'>2,000</div>
             </div>
           </Col>
@@ -103,68 +103,68 @@ class Index extends React.Component {
               </Card>
             </div>
           </Col>
-          <Col span={12} className="gutter-line">
-            <div className='col-box'>
-              <Card title="得分对比图" bordered={false}>
-                <Bar
-                  option={{
-                    years: this.state.years, 
-                    scoreCommon: this.state.score,
-                    offs: this.state.offs
-                  }} 
-                />
-              </Card>
-            </div>
-          </Col>
+          {/*<Col span={12} className="gutter-line">*/}
+            {/*<div className='col-box'>*/}
+              {/*<Card title="得分对比图" bordered={false}>*/}
+                {/*<Bar*/}
+                  {/*option={{*/}
+                    {/*years: this.state.years,*/}
+                    {/*scoreCommon: this.state.score,*/}
+                    {/*offs: this.state.offs*/}
+                  {/*}}*/}
+                {/*/>*/}
+              {/*</Card>*/}
+            {/*</div>*/}
+          {/*</Col>*/}
         </Row>
         {/* 消息任务 */}
         <Row gutter={24} className="static">
           <Col span={12} className="gutter-line">
             <div className='col-box'>
-              <Card title="我的任务" bordered={false}>
-                <Timeline pending={<a>睡觉</a>}>
-                  <Timeline.Item color="green">先跑个20KM 9:00 AM</Timeline.Item>
-                  <Timeline.Item color="green">柔韧性训练 10:30 AM</Timeline.Item>
+              <Card title="开发进度" bordered={false}>
+                <Timeline pending={<a>完善中...</a>}>
+                  <Timeline.Item color="green">主页开发</Timeline.Item>
+                  <Timeline.Item color="green">模块化完成</Timeline.Item>
                   <Timeline.Item color="red">
-                    <p>投进1000个中投 2:00 PM</p>
-                    <p>投进100个三分 3:00 PM</p>
-                    <p>进100个罚球 4:00 PM</p>
+                    <p>后台管理</p>
+                    <p>实时信息</p>
+                    {/*<p>进100个罚球 4:00 PM</p>*/}
                   </Timeline.Item>
                   <Timeline.Item>
-                    <p>力量训练 5:00 PM</p>
-                    <p>休息，补充体力 7:00 PM</p>
+                    <p>可视化地图</p>
+                    <p>更新信息</p>
                   </Timeline.Item>
                 </Timeline>
               </Card>
             </div>
           </Col>
-          <Col span={12} className="gutter-line">
-            <div className='col-box'>
-              <Card title="我的消息" bordered={false}>
-                <div>
-                  <img className='info-img' src={Wade} />
-                  <div className="clear">
-                    <a className="block">D-wade</a>
-                    <p className="text-muted">今晚有空吗？附近新开了一家店，去试试。。</p>
-                  </div>
-                </div>
-                <div className='info-block'>
-                  <img className='info-img' src={Pual} />
-                  <div className="clear">
-                    <a className="block">C-pual</a>
-                    <p className="text-muted">周末一起训练啊，我买了最新的器材</p>
-                  </div>
-                </div>
-                <div className='info-block'>
-                  <img className='info-img' src={Anthony} />
-                  <div className="clear">
-                    <a className="block">K-anthony</a>
-                    <p className="text-muted">老弟，有空切磋切磋，我要把你按在地上摩擦！！！</p>
-                  </div>
-                </div>
-              </Card>
-            </div>
-          </Col>
+          {/*<Col span={12} className="gutter-line">*/}
+            {/*<div className='col-box'>*/}
+              {/*<Card title="我的消息" bordered={false}>*/}
+                {/*<div>*/}
+                  {/*<img className='info-img' src={Wade} />*/}
+                  {/*<div className="clear">*/}
+                    {/*<a className="block">D-wade</a>*/}
+                    {/*<p className="text-muted">今晚有空吗？附近新开了一家店，去试试。。</p>*/}
+                  {/*</div>*/}
+                {/*</div>*/}
+                {/*<div className='info-block'>*/}
+                  {/*<img className='info-img' src={Pual} />*/}
+                  {/*<div className="clear">*/}
+                    {/*<a className="block">C-pual</a>*/}
+                    {/*<p className="text-muted">周末一起训练啊，我买了最新的器材</p>*/}
+                  {/*</div>*/}
+                {/*</div>*/}
+                {/*<div className='info-block'>*/}
+                  {/*<img className='info-img' src={Anthony} />*/}
+                  {/*<div className="clear">*/}
+                    {/*<a className="block">K-anthony</a>*/}
+                    {/*<p className="text-muted">老弟，有空切磋切磋，我要把你按在地上摩擦！！！</p>*/}
+                  {/*</div>*/}
+                {/*</div>*/}
+              {/*</Card>*/}
+            {/*</div>*/}
+          {/*</Col>*/}
         </Row>
       </div>
     )

@@ -5,6 +5,8 @@ import { Layout } from 'antd'
 import Index from '../../page/index/index'
 import AttackRanking from '../../page/Situational/AttackRanking';
 import AbnormalExecutive from '../../page/executive/abnormalexecutive/abnormalexecutive';
+import EditableTable from '../../page/tables/EditableTable';
+import LoadExecutive from '../../page/executive/loadExecutive/loadExecutive';
 // import Button from 'pages/basic/button'
 // import Icons from 'pages/basic/icon'
 // import Carousels from 'pages/basic/carousel'
@@ -38,7 +40,7 @@ class Content extends React.Component {
     return (
       <Layout.Content className="content" id="content">
           <Route path="/app/index" component={Index} />
-          <Route path="/app/user/user_edit" component={EditUser}/>
+          <Route path="/app/user/user_edit" component={EditableTable}/>
           <Route path="/app/user/user_add" component={AddUser}/>
           <Route path="/app/user/user_list" component={FixedTable}/>
           <Route path="/app/situational/attack_map"  component={Echarts}/>
@@ -51,6 +53,7 @@ class Content extends React.Component {
           <Route path="/app/log/feedback" component={FeedBack} />
           <Route path="/app/situational/attack" component={AttackRanking} />
           <Route path="/app/abnormal/executive_abnormal" component={AbnormalExecutive}/>
+          <Route path="/app/executive/executive_load" component={LoadExecutive}/>
 
 
       </Layout.Content>
